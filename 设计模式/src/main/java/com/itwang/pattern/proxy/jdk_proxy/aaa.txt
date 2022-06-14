@@ -1,0 +1,19 @@
+public final class $Proxy0 extends Proxy implements SellTickets {
+    private static Method m3;
+
+    public final void sell() {
+            this.h.invoke(this, m3, null);
+    }
+
+    public $Proxy0(InvocationHandler invocationHandler) {
+        super(invocationHandler);
+    }
+
+    static {
+            m3 = Class.forName("com.itwang.pattern.proxy.jdk_proxy.SellTickets").getMethod("sell", new Class[0]);
+    }  
+}
+
+public class Proxy implements java.io.Serializable {
+    protected InvocationHandler h;
+}

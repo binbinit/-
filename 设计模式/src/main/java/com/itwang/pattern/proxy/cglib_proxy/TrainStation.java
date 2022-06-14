@@ -1,0 +1,14 @@
+package com.itwang.pattern.proxy.cglib_proxy;
+
+
+/**
+ * @Author: ww
+ * @DateTime: 2022/4/15 17:36
+ * @Description: 火车站类
+ */
+public class TrainStation{
+
+    public void sell() {
+        System.out.println("火车站卖票");
+    }
+}
